@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content {
+    border: 2px solid rgb(32, 33, 41);
+    width: 330px;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content h1 {
+    font-size: 28px;
+    background-color: rgba(22, 50, 161, 0.821);
+    color: #fff;
+    padding: 10px 10px;
+    width: 90%;
+    text-align: center;
+}
+
+input#monetaryAmmount,
+input#taxPercentage {
+    width: 90%;
+    text-align: right;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+#calculateBtn {
+    width: 100px;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(94, 209, 36, 0.821);
+}
+
+#summary {
+    background-color: rgba(133, 226, 140, 0.821);
+    width: 95%;
+    padding: 2px;
+    margin: 5px 0;
+    color: rgb(0, 0, 0);
+}
+
+#summary p {
+    padding: 1px;
+    margin: 5px 5px;
+}
+
+.taxcal {
+    border: 3px solid rgb(10, 6, 241);
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .taxDisplay {
+    display: inline-block;
+    border: 3px solid rgb(25, 0, 255);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    width: 55%;
+    position: absolute;
+   
+    left: 10%;
+    
+  }
